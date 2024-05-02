@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+/*	box-sizing: border-box;*/
+
+}
+
+
+.home{
+/*	background-color: darkorange;*/
+	background-image:url(pixel3.jpg) ;
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover ;
+	height: 100vh;
+	
+}
+
+.navbr{
+	display: flex;
+	justify-content: space-around;
+	background-color: goldenrod;
+	height: 80px;
+	width: 99%;
+	margin: auto;
+	border-radius: 20px;
+	position: relative;
+	top: 14px;
+	}
+
+.logo{
+/*	background-color: red;*/
+	color: whitesmoke;
+     font-size: 30px;
+     align-self: center;
+}
+
+.logo span {
+	color: red;
+}
+
+ul{
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+/*	line-height: 50px;*/
+}
+ul li{
+/*	justify-content: space-between;*/
+list-style: none;
+margin-left: 40px;
+position: relative;
+
+
+}
+
+
+ul li a {
+	background-color: #6612;
+	padding: 6px;
+	border-radius: 4px;
+}
+.inp{
+	align-self: center;
+	padding: 4px 9px;
+	 	}
+/*.icon {
+/*	align-self: center;*/
+}*/
+
+.inp i{
+	margin-left: 10px;
+/*	font-size: 50px;*/
+
+}
+.inp{
+/*	border: none;*/
+padding: 6px 12px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+label{
+	margin-left: 20px;
+}
+
+.menu {
+/*	display: none;*/
+/*	position: absolute;*/
+/* background-color: goldenrod;*/
+position: relative;
+
+}
+
+
+.menu{
+	display: none;
+}
+
+ul li:hover .menu{
+    display: block;
+    color: black;
+}
+
+.menu ul {
+ 
+ background-color: #ddd9;
+	position: absolute;
+	top: 6px;
+ display: block;
+ border-radius: 8px;
+/* padding-right: 20px;*/
+
+}
+.menu ul li{
+	width: 80px;
+    position: relative;
+    right: 30px;
+	padding: 10px;
+}
+
+.center-content{
+	 text-align: center;
+	 margin-top: 18%;
+/*	 background: gray;*/
+
+}
+.center-content h2{
+      font-weight: 600;
+      border-radius: 1px solid red;
+      background-color: transparent;
+}
+
+
+.center-content h2{
+	color: black;
+	font-weight: 800;
+	padding-bottom: 20px;
+	
+}
+.center-content p{
+	color: navajowhite;
+
+}
+
+/*//////////////////////////// sec-2 ///////////////////////////*/
+
+
+
+
